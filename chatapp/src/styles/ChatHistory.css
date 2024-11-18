@@ -1,0 +1,32 @@
+#chat-history {
+    color: green;
+    background-color: white;
+    font-family: sans-serif;
+    border: 1px solid white;
+    border-radius: 30px;
+    transform: translateX(-750px);
+    margin-top: -500px;
+    height: 500px;         
+    overflow: auto;  
+    width: 1000px;
+    font-size: larger;
+    width: 60%;
+    
+}
+
+#chat-history::-webkit-scrollbar {
+    display: none;         
+  }
+
+table tr:hover {
+    color: white;
+    background-color: green;
+    border-radius: 30px;
+    
+}
+
+table {
+    margin: auto;
+    padding-bottom: 10px;
+    font-size: larger;
+}

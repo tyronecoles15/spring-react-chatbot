@@ -1,0 +1,139 @@
+#logo {
+    height: 140px;
+    width: 290px;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    margin: auto;
+    margin-right: 100px;
+    transform: translateY(40px);
+}
+
+#main-heading {
+    margin-bottom: 50px;
+    margin-left: -100px;
+    transform: translateY(-40px);
+    font-size: xx-large;
+}
+
+#chat-component {
+    transform: translateX(300px);
+}
+
+
+.loading-animation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 120px;
+    margin-left: 280px;
+    color: white;
+}
+
+
+
+.spinner {
+    width: 80px;
+    height: 80px;
+    border: 3px solid orange;
+    border-top: 3px solid magenta;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+ 
+
+#chat-div {
+    height: 500px;
+    overflow-y: 200px;
+    overflow-x: hidden; 
+    width: 100vh; 
+    margin-left: 200px;
+    
+    transform: translateX(-220px);
+    margin-top: -100px;
+}
+
+#chat-div::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    margin-top: -5px;
+    margin-bottom: 3%;
+}
+
+form {
+    background-color: transparent;
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    width: 70%;
+    transform: translateX(-300px);
+    transform: translateY(-25px);
+    margin-left: -250px;
+    border-style: none;
+    
+}
+
+#send-button {
+    height: 60px;
+    width: 60px;
+    
+}
+
+#send-button :hover {
+    height: 70px;
+    width: 70px;
+    
+}
+
+.message {
+    font-size: large;
+    color: green;
+    background-color: white;
+    border: 1px solid white;
+    width: 45%;
+    border-radius: 30px;
+    font-family: sans-serif;
+    z-index: -30;
+    max-width: 100%; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.input {
+    margin-top: 35px;
+    font-size: large;
+    font-family: sans-serif;
+    transform: translateX(500px);
+    color: green;
+    background-color: white;
+    border: 1px solid white;
+    width: 30%;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    
+}
+
+
+

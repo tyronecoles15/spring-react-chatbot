@@ -1,0 +1,7 @@
+body {
+  width: 100vh;
+  height: 100vh;
+  background: linear-gradient(45deg, black, darkgreen, limegreen);
+  background-repeat: no-repeat;
+}
+

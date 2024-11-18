@@ -1,0 +1,45 @@
+.login-container {
+    
+    height: 100vh;
+    width: 100vh;
+    
+    margin-left: -990px;
+}
+
+.login-container input {
+    background-color: white;
+}
+
+#sign-in-form {
+    
+    transform: translateY(200px);
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#main-heading {
+    margin-top: 8%;
+    font-size: xx-large;
+    color: white;
+}
+
+
+
+#google {
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, blue, orange, darkorange,orange,blue);
+    text-align: center;
+    transform: translateY(100px);
+    margin-left: 1000px;
+    color: white;
+    font-size: 35px;
+    padding-right: 500px;
+   
+    
+}
+
