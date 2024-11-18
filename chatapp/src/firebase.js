@@ -7,7 +7,7 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB8VW91RN4DlULZFZHQG6z2E4Sk6J5hvQE",
+  apiKey: "OBTAIN API KEY",
   authDomain: "spring-react-chatbot.firebaseapp.com",
   projectId: "spring-react-chatbot",
   storageBucket: "spring-react-chatbot.firebasestorage.app",
