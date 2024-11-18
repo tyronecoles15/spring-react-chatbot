@@ -31,7 +31,7 @@ Frontend
   - Components for chat input, chat history, and login/signup forms.
 - Firebase:
   - Authentication and chat history storage.
-Backend
+Backend (demo folder)
 - Spring Boot:
   - RESTful APIs for managing chat interactions and user sessions.
 - OpenAI API:
@@ -47,7 +47,7 @@ Prerequisites
 - npm or yarn (for ReactJS)
 - Firebase project set up for authentication and database storage
 
-Backend Setup
+Backend Setup (demo folder)
 
 1. Clone the repository.
 2. Obtain an OpenAI API key and add it to your application.yaml or application.properties file.
@@ -64,4 +64,10 @@ Frontend Setup
 Database Setup
 
 Firebase is used as the database for storing chat history and user authentication. Ensure that your Firebase project is properly configured to store chat conversations under a suitable collection.
+
+The following links were useful in the creation of this application:
+
+- https://medium.com/@tayyaba.imam/building-a-simple-chatbot-with-spring-boot-spring-ai-and-openai-d0a806afbf4f
+- https://www.youtube.com/watch?v=31KTdfRH6nY&t=1526s
+
 
