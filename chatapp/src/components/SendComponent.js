@@ -1,4 +1,3 @@
-// SendComponent.js
 import React, { useState } from 'react';
 import send from '../images/send-button-white.png';
 import '../styles/SendComponent.css';
