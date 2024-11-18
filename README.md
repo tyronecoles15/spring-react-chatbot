@@ -25,7 +25,7 @@ Features
 
 Technologies Used
 
-Frontend
+Frontend (chatapp folder)
 - ReactJS:
   - UI development.
   - Components for chat input, chat history, and login/signup forms.
